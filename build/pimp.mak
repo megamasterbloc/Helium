@@ -1,15 +1,14 @@
 # You gotta PIMP MY CALC
 
 ifndef NO_PIMP
-PLS_IGNORE := $(shell >&2 printf "\e[91m\e[1m    ____                                  \n")
-PLS_IGNORE := $(shell >&2 printf "\e[91m\e[1m   / __ \\____ ___  ___  ____ _____ _     \n")
-PLS_IGNORE := $(shell >&2 printf "\e[91m\e[1m  / / / / __ \`__ \\/ _ \\/ __ \`/ __ \`/ \n")
-PLS_IGNORE := $(shell >&2 printf "\e[91m\e[1m / /_/ / / / / / /  __/ /_/ / /_/ /       \n")
-PLS_IGNORE := $(shell >&2 printf "\e[91m\e[1m \\____/_/ /_/ /_/\\___/\\__, /\\__,_/    \n")
-PLS_IGNORE := $(shell >&2 printf "\e[91m\e[1m                     /____/               \n")
-PLS_IGNORE := $(shell >&2 printf "\e[33m          - Omega does what Epsilon't     \e[0m\n")
+PLS_IGNORE := $(shell >&2 printf "\e[96m\e[1m   _  __ _ \n")
+PLS_IGNORE := $(shell >&2 printf "\e[96m\e[1m  | |/ /(_)\n")
+PLS_IGNORE := $(shell >&2 printf "\e[96m\e[1m  |   // / \n")
+PLS_IGNORE := $(shell >&2 printf "\e[96m\e[1m /   |/ / \n")
+PLS_IGNORE := $(shell >&2 printf "\e[96m\e[1m/_/|_/_/   \n")
+PLS_IGNORE := $(shell >&2 printf "\e[37m          - Xi gets stuff done, somehow.     \e[0m\n")
 PLS_IGNORE := $(shell >&2 printf "\n")
-PLS_IGNORE := $(shell >&2 printf "\e[32mBuilding O$(OMEGA_VERSION)-E$(EPSILON_VERSION)\n")
+PLS_IGNORE := $(shell >&2 printf "\e[36mBuilding O$(OMEGA_VERSION)-E$(EPSILON_VERSION)\n")
 
 ifeq (${PLATFORM},device)
   DISPLAY_TARGET = Numworks $(MODEL)
@@ -21,7 +20,7 @@ endif
 
 DISPLAY_TARGET ?= "Undefined"
 
-PLS_IGNORE := $(shell >&2 printf "\e[32m  Targetting $(DISPLAY_TARGET)\n")
+PLS_IGNORE := $(shell >&2 printf "\e[36m  Targetting $(DISPLAY_TARGET)\n")
 
 ifeq ($(OS),Windows_NT)
     DISPLAY_OS = Windows
@@ -58,7 +57,7 @@ endif
 DISPLAY_OS ?= "Unknown"
 
 
-PLS_IGNORE := $(shell >&2 printf "\e[32m    Building on $(DISPLAY_OS)\n")
+PLS_IGNORE := $(shell >&2 printf "\e[36m    Building on $(DISPLAY_OS)\n")
 
 PLS_IGNORE := $(shell >&2 printf "\e[0m\e[39m\n")
 endif
