@@ -293,4 +293,4 @@ NumWorks SAS and Nintendo of America Inc aren't associated in any shape or form 
 ## Special Thanks
   
 Thanks to the entire Omega and Upsilon community from introducing me to the world of Numworks OS creation.
-Also thanks to Laury, because this readme is just Upsilon's with a thing of two switched.
+Also thanks to Laury, because this readme is just Upsilon's with a thing or two switched.
