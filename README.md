@@ -125,7 +125,7 @@ Just restart and you can go to step 2!
 ### 2. Set up repo
 
 
-Clone repo and use 'upsilon-dev' branch by pasting these two commands:
+Clone repo and use 'xi-dev' branch by pasting these two commands:
 
 ```bash
 git clone --recursive https://github.com/Trixciel/Xi.git
