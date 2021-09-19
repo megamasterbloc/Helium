@@ -91,7 +91,7 @@ cd emsdk
 source emsdk_env.sh
 ```
 
-Puis, compilez Upsilon :
+Puis, compilez Xi :
 
 ```bash
 git clone --recursive https://github.com/Trixciel/Xi.git
