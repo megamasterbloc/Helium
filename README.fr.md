@@ -11,7 +11,7 @@
 
 ## À propos
 
-Xi est un fork de Upsilon, mais il est plus développé comme un projet de détente plutôt qu'un OS.
+Xi est un fork de Upsilon, mais il est plus développé comme un projet détente plutôt que comme un OS.
 
 ## Installation
 
