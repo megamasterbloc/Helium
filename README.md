@@ -271,7 +271,7 @@ Here are the main links toward Omega's different websites and repositories, that
 
 ## About Epsilon
 
-Xi is a fork of Upsilon, that aims to create a few useful features for students.
+Xi is a fork of Upsilon, that aims to create a few useful features for students in higher studies.
   
 Upsilon is a fork of Omega, after the project's discontinuation.
 
