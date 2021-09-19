@@ -12,9 +12,7 @@
 ## About
 
 Xi is a fork of Upsilon, and more like a weekend project than an actual OS.
-
 <br>
-
 ## Installation
 
 ### Manual
