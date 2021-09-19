@@ -11,19 +11,7 @@
 
 ## About
 
-Upsilon is a fork of Omega, an user-made OS that runs on the Numworks calculator, which brings many features to it, but was discontinued because of a policy change from Numworks. Upsilon is for the people who want to see a future for user-made OSes for Numworks, even after the closure and archiving of Omega.
-
-
-
-
-### Some new features
-- Enhancements for the Kandinsky python module
-- A support for wallpapers
-- Exernal apps
-- A custom theme
-- Operator overload for python
-- Improvements for the Periodic table application
-- *And everything that has been added to Omega before its termination!* [See Omega's changelog here](https://github.com/Omega-Numworks/Omega/wiki/Changelog) | [Main Omega features + screenshots](https://github.com/Omega-Numworks/Omega/wiki/Main-features).
+Xi is a fork of Upsilon, and more like a weekend project than an actual OS.
 
 <br>
 
@@ -142,9 +130,9 @@ Just restart and you can go to step 2!
 Clone repo and use 'upsilon-dev' branch by pasting these two commands:
 
 ```bash
-git clone --recursive https://github.com/Lauryy06/Upsilon.git
-cd Upsilon
-git checkout upsilon-dev
+git clone --recursive https://github.com/Trixciel/Xi.git
+cd Xi
+git checkout xi-dev
 ```
 <br>
 
@@ -176,7 +164,8 @@ or:
 ```bash
 make MODEL=n0100 OMEGA_USERNAME="" binpack -j4
 ```
-to make binpack wich you can flash to the caculator from [Ti-planet's webDFU](https://ti-planet.github.io/webdfu_numworks/n0100/). Binpacks are a great way to share a custom build of Upsilon to friends.
+to make binpack wich you can flash to the caculator from [Ti-planet's webDFU](https://ti-planet.github.io/webdfu_numworks/n0100/).
+Basically, binpacks lets everyone that can access the numworks webdfu install Xi, which you don't really want to do but eh, whatever.
   
 </details>
 
@@ -203,7 +192,8 @@ or:
 ```bash
 make OMEGA_USERNAME="" binpack -j4
 ```
-to make binpack wich you can flash to the caculator from [Ti-planet's webDFU](https://ti-planet.github.io/webdfu_numworks/n0110/). Binpacks are a great way to share a custom build of Upsilon to friends.
+to make binpack wich you can flash to the caculator from [Ti-planet's webDFU](https://ti-planet.github.io/webdfu_numworks/n0110/).
+Basically, binpacks lets everyone that can access the numworks webdfu install Xi, which you don't really want to do but eh, whatever.
 
 </details>
 
@@ -220,7 +210,7 @@ cd emsdk
 source emsdk_env.sh
 ```
 
-Then, compile Upsilon :
+Then, compile Xi :
 
 ```bash
 make clean
@@ -238,9 +228,9 @@ The simulator is now in `output/release/simulator/web/simulator.zip`
 You need devkitPro and devkitARM installed and in your path (instructions [here](https://devkitpro.org/wiki/Getting_Started))
 
 ```bash
-git clone --recursive https://github.com/Lauryy06/Upsilon.git
-cd Upsilon
-git checkout --recursive omega-dev
+git clone --recursive https://github.com/Trixciel/Xi.git
+cd Xi
+git checkout --recursive xi-dev
 make PLATFORM=simulator TARGET=3ds -j
 ```
 You can then put epsilon.3dsx on a SD card to run it from the HBC or use 3dslink to launch it over the network:
@@ -259,7 +249,7 @@ Don't forget to put your pseudo instead of `{your pseudo, max 15 char}`. If you 
 
 <br>
 
-If you need help, you can join our Discord server here : https://discord.gg/Q9buEMduXG
+If you need help, you can join Upsilon's Discord server here : https://discord.gg/Q9buEMduXG
 
 <a href="https://discord.gg/Q9buEMduXG"><p align="center"><img alt="Omega Banner Discord" src="https://user-images.githubusercontent.com/12123721/86287349-54ef5800-bbe8-11ea-80c1-34eb1f93eebd.png" /></p></a>
 ---
@@ -283,6 +273,8 @@ Here are the main links toward Omega's different websites and repositories, that
 
 ## About Epsilon
 
+Xi is a fork of Upsilon, that aims to create a few useful features for students.
+  
 Upsilon is a fork of Omega, after the project's discontinuation.
 
 Omega is a fork of Epsilon, a high-performance graphing calculator operating system. It includes eight apps that cover the high school mathematics curriculum.
@@ -298,3 +290,9 @@ NumWorks SAS and Nintendo of America Inc aren't associated in any shape or form 
 * NumWorks Epsilon is released under a [CC BY-NC-SA License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
 * Omega is released under a [CC BY-NC-SA License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
 * Upsilon is released under a [CC BY-NC-SA License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+* Xi is released under a [CC BY-NC-SA License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+
+## Special Thanks
+  
+Thanks to the entire Omega and Upsilon community from introducing me to the word of Numworks OS creation.
+Also thanks to Laury, because this readme is just Upsilon's with a thing of two switched.
