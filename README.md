@@ -1,14 +1,12 @@
-<p align="center"><img src="https://github.com/Trixciel/Xi_Assets/blob/main/Xi.png" /></p>
 
 <p align="center">
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="cc by-nc-sa 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-525252.svg?labelColor=292929&logo=creative%20commons&style=for-the-badge" /></a>
 </p>
 
-> Vous ne comprenez pas l'anglais ? Vous êtes francophone ? Regardez le [*LISEZ-MOI* français](./README.fr.md) !
 
 ## About
 
-Xi is a fork of Upsilon, and more like a weekend project than an actual OS.
+helium is a fork of Upsilon with (or without) new features. It is intended to be a playground for me to practice on rather than an actual prod project.
 <br>
 ## Installation
 
